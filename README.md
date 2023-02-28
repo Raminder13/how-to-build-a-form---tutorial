@@ -31,3 +31,57 @@ To create a form using HTML and CSS, follow these steps:
 ```CSS
     <link rel="stylesheet" href="index.css">
 ```
+4. In the CSS file, we can add styling for the form elements. Here's an example of some basic styling:
+```CSS
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: calc(100vh);
+    background-color: #f2f2f2;
+    display: grid;
+    place-items: center;
+   
+ }
+ 
+ .contact-box {
+   display: grid;
+   height: 490px;
+   width: 300px;
+   background-color: #fff;
+   border-radius: 10px;
+   text-align: center;
+ }
+ 
+ input[type], textarea
+ {
+   height: 50px;
+   width: 200px;
+   margin: 10px;
+   border-radius: 10px;
+   padding: 0 30px;
+ }
+
+ form a {
+    background-color: #808080;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 70px;
+    font-size: 24px;
+    font-weight: 600;
+ }
+
+ form {
+    margin-top: 30px;
+ }
+
+ textarea {
+    margin-bottom: 30px;
+ }
+ ```
+ 
+ Save both the HTML and CSS files, and open the HTML document in your web browser. You should now see a basic contact form with some styling applied.
